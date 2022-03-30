@@ -1,10 +1,4 @@
-    .up{
-	display:inline-block;
-	height: 100px;
-	width: 100%;
-	background-color: rgb(112, 112, 112);
-	}
-	@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
 	*{
 		margin: 0;
 		padding: 0;
@@ -12,10 +6,12 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 	body{
-		background: url(https://www.xtrafondos.com/wallpapers/montanas-con-nieve-en-el-bosque-3934.jpg);
-		background-size: 100vw 100vh;
-		background-repeat: no-repeat;
+        background-color: rgb(112, 112, 112);
 	}
+	.up{background-color: rgb(105, 105, 105);
+		display:inline-block;
+	    height: 100px;
+	    width:100%;}
 	.capa{
 		position: fixed;
 		width: 100%;
